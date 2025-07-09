@@ -12,4 +12,7 @@ python manage.py makemigrations nutriFood
 
 # run migration
 python manage.py sqlmigrate nutriFood 0001 # number of migration to run
+
+# perform migration
+python manage.py migrate
 ```
