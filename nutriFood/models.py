@@ -1,4 +1,5 @@
 from django.db import models
 
 class Product (models.Model):
-    ingredient = models.CharField(max_length=200)
+    name = models.CharField(max_length=200)
+    ingredient = models.CharField(max_length=500)
